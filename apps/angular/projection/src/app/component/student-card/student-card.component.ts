@@ -10,6 +10,7 @@ import { CardComponent } from '../../ui/card/card.component';
   template: `<app-card
     [list]="students"
     [type]="cardType"
+    [imgSrc]="'student.webp'"
     customClass="bg-light-green"></app-card>`,
   standalone: true,
   styles: [

@@ -16,6 +16,7 @@ export class CardComponent {
   @Input() list: any[] | null = null;
   @Input() type!: CardType;
   @Input() customClass = '';
+  @Input({ required: true }) imgSrc = '';
 
   CardType = CardType;
 

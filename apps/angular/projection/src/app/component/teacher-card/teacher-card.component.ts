@@ -10,6 +10,7 @@ import { CardComponent } from '../../ui/card/card.component';
   template: `<app-card
     [list]="teachers"
     [type]="cardType"
+    [imgSrc]="'teacher.png'"
     customClass="bg-light-red"></app-card>`,
   styles: [
     `
